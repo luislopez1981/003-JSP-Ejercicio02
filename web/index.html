@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>
+            <!--<form action= "tablaMultiplicar.jsp" method="GET">
+                <label>Introduce el número de la tabla de multiplicar</label>
+                <input type="text" name ="numero"/>
+                <input type="submit" value ="hola"/>
+            </form>-->
+                
+                
+            <form action= "./Calculos" method="POST">
+                <label>Introduce dos números y selecciona una operación</label>
+                <input type="text" name="numero1"/>
+                <input type="text" name="numero2"/>
+                <select name ="operacion">
+                    <option value="suma">suma</option>
+                    <option value="resta">resta</option>
+                    <option value="multiplicacion">multiplicacion</option>
+                    <option value="division">division</option>
+                </select>
+                <input type="submit" value="Enviar"/>
+            </form>
+        </div>
+    </body>
+</html>
