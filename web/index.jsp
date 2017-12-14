@@ -19,11 +19,11 @@
             <!--<form action= "tablaMultiplicar.jsp" method="GET">
                 <label>Introduce el número de la tabla de multiplicar</label>
                 <input type="text" name ="numero"/>
-                <input type="submit" value ="hola"/>
+                <input type="submit" value ="Enviar"/>
             </form>-->
 
 
-            <!--<form action= "./Calculos" method="POST">
+            <form action= "./Calculos" method="POST">
                  <label>Introduce dos números y selecciona una operación</label>
                  <input type="text" name="numero1"/>
                  <input type="text" name="numero2"/>
@@ -34,7 +34,7 @@
                      <option value="division">division</option>
                  </select>
                  <input type="submit" value="Enviar"/>
-             </form>-->
+             </form>
         </div>
     </body>
 </html>
