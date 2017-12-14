@@ -33,7 +33,7 @@ public class Calculos extends HttpServlet {
             int num1 = Integer.parseInt(numero1);
             int num2 = Integer.parseInt(numero2);
             int resultado = Calculadora.calcular(num1, num2, operacion);
-            resp.sendRedirect("resultado.jsp?resultado="+resultado);
+            resp.sendRedirect("Resultado.jsp?resultado="+resultado);
         } catch (NumberFormatException e) {
             resp.sendError(HttpServletResponse.SC_BAD_REQUEST);
         }
